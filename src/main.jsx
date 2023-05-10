@@ -5,8 +5,8 @@ import { BrowserRouter } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { ScrollToTop } from './components'
-import { FilterProvider } from './context'
-import { CartProvider } from './context';
+import { FilterProvider, CartProvider } from './context'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
